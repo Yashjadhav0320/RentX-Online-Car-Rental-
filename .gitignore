@@ -1,17 +1,66 @@
 # Python
 __pycache__/
 *.py[cod]
+*$py.class
+*.so
+
+# Python environments
 .venv/
 venv/
 env/
+ENV/
+env.bak/
+venv.bak/
 
-# Secrets
+# Secrets and local configuration
 .env
 .env.*
+.envrc
+.pypirc
+.streamlit/secrets.toml
 
-# VS Code
+# VS Code and IDEs
 .vscode/
+.idea/
+.spyderproject
+.spyproject
+.ropeproject
 
-# Generated files
+# Flask local data
+instance/
+.webassets-cache
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs and temporary files
 *.log
+tempCodeRunnerFile.py
+
+# Build and distribution
+build/
+dist/
+downloads/
+eggs/
+.eggs/
+wheels/
+*.egg-info/
+.installed.cfg
+MANIFEST
+
+# Testing and coverage
+.pytest_cache/
+.tox/
+.nox/
+.coverage*
+htmlcov/
+.hypothesis/
+.mypy_cache/
+.ruff_cache/
+
+# Documentation and notebooks
+docs/_build/
+.ipynb_checkpoints/
+
+# Other generated files
 .DS_Store
